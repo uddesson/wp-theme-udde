@@ -35,7 +35,7 @@
             <!-- Ends loop -->
             <?php endif; ?>
 
-        <div class="col-lg-3">
+        <div class="col-lg-3 sidebar">
             <?php get_sidebar(); ?>
         </div>
     </div>

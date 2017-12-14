@@ -4,13 +4,13 @@
 
     <?php require 'navbar.php'; ?>
     
-    <?php require 'front_page_header_content.php'; ?>
+    <?php require 'front-page-header-content.php'; ?>
 
 </div> <!-- .front-page-header -->
 
 <div class="row">
 
-    <div class="col-sm-8 blog-main">
+    <div class="col-lg-10 offset-lg-2 posts-main">
 
     <?php echo 'VARNING DET HÄR ÄR INDEX'; ?>
     

@@ -6,7 +6,7 @@
 
 	<div class="row">
         
-		<div class="col-sm-8 blog-main">
+		<div class="col-sm-8 posts-main">
 
         <h1> Den här heter home.php men är min inläggssida "portfolio" </h1>
 

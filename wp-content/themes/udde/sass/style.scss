@@ -1,0 +1,18 @@
+/*
+Theme Name: Udde
+Author: Emma Uddesson
+Description: My first theme, based on HTML-Bootstrap Blog theme by Bootstrap (@mdo)
+Tags: bootstrap
+*/
+
+//Mobile
+@import "_mobile.scss";
+
+
+//Desktop
+@media screen and (min-width: 992px){
+@import "_desktop.scss";
+
+}
+
+

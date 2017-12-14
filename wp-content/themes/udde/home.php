@@ -23,7 +23,7 @@
                             // the_post_thumbnail(); 
                             ?>
                         </div>
-                        <h1><?php the_title(); ?></h1>    
+                        <?php echo '<h1><a href="'.get_permalink( $id ).'">'.get_the_title( $id ).'</a></h1>'; ?>
                         <p><?php the_excerpt(); ?></p>
                         <a id=#readmore>Läs mer</a>                           
                     </div>

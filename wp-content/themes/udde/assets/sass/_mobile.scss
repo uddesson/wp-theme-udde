@@ -42,7 +42,6 @@ li{
       color: rgba(255, 255, 255, 0.822);
       text-decoration: none;
     }  
-
   }
 }
 
@@ -50,7 +49,7 @@ li{
 /* Page header */
 
 .front-page-header {
-  background-image: url(theme_images/hero-image.jpg);
+  background-image: url(assets/theme_images/hero-image.jpg);
   background-repeat: no-repeat;
   padding: 0px;
   margin: 0px;
@@ -100,7 +99,7 @@ li{
 
 
 
-/* POST CONTENT */
+/* Post preview content for feed */
 .feed-container {
   width: 100vw;
   padding-top: 140px;
@@ -109,12 +108,26 @@ li{
 
   .post-content{
     margin-bottom: 100px;
-  }
+    border: 2px solid rgb(212, 54, 83);
+  
+    .thumbnail-container{
+      margin: 0px;
+      padding: 0px;
+      height: 250px;
+      border: 2px solid blue;
 
-  .thumbnail{
-    // width: 100px;
+      img.thumbnail-image{
+        object-fit: cover;
+        width: 100%;
+        height: 250px;
+      }
+    }
   }
+}
 
+
+.sidebar{
+  border: 1px solid purple;
 }
 
 /* Sidebar modules for boxing content */

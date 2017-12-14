@@ -6,9 +6,9 @@ Template name: Front Page
 
 <div class="front-page-header">
 
-    <?php require 'navbar.php'; ?>
+    <?php require 'parts/navbar.php'; ?>
     
-    <?php require 'front-page-header-content.php'; ?>
+    <?php require 'parts/front-page-header-content.php'; ?>
 
 </div> <!-- .front-page-header -->
 

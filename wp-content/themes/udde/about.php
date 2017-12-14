@@ -5,7 +5,7 @@ Template name: About
 <?php get_header(); ?>
 
 <div class="container-fluid nav-container">
-	<?php require 'navbar.php'; ?>
+	<?php require 'parts/navbar.php'; ?>
 </div>
 
 	<div class="row">

@@ -3,7 +3,7 @@
 <?php get_header(); ?>
 
 <div class="container-fluid nav-container">
-    <?php require 'navbar.php'; ?>
+    <?php require 'parts/navbar.php'; ?>
 </div>
 
 <?php echo 'VARNING DET HÄR ÄR INDEX'; ?>

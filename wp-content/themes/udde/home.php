@@ -2,29 +2,56 @@
 
 <?php get_header(); ?>
 
+<div class="container-fluid nav-container">
     <?php require 'navbar.php'; ?>
+</div>
 
-	<div class="row">
+<div class="container-fluid feed-container">
+    <div class="row">
+        <div class="col-10 col-lg-7 offset-lg-1">
+
+            <?php if ( have_posts() ) : ?>
+
+                <!-- Loops out all the posts -->
+                <?php while ( have_posts() ) : the_post(); ?>
+                        
+                    <!-- Content in the loop -->
+                    <div class="col post-content">
+                        <a><?php the_category(); ?></a>
+                        <div class="thumbnail">
+                            <?php 
+                            // the_post_thumbnail(); 
+                            ?>
+                        </div>
+                        <h1><?php the_title(); ?></h1>    
+                        <p><?php the_excerpt(); ?></p>
+                        <a id=#readmore>Läs mer</a>                           
+                    </div>
         
-		<div class="col-sm-8 posts-main">
+                <?php endwhile;  ?>
+                        
+        </div>
 
-        <h1> Den här heter home.php men är min inläggssida "portfolio" </h1>
+            <!-- Ends loop -->
+            <?php endif; ?>
 
-        
-		<?php if ( have_posts() ) : 
+        <div class="col-lg-3">
+            <?php get_sidebar(); ?>
+        </div>
+    </div>
+</div>
 
-                while ( have_posts() ) : the_post();
-  	
-                  get_template_part( 'content', get_post_format() );
-  
-                endwhile; 
-            
-        endif; ?>
 
-		</div> <!-- /.blog-main -->
 
-		<?php get_sidebar(); ?>
 
-	</div> <!-- /.row -->
+
+
+
+
+
+
+
+
+
 
 <?php get_footer(); ?>

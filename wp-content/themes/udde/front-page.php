@@ -12,9 +12,8 @@ Template name: Front Page
 
 </div> <!-- .front-page-header -->
 
-<div class="container posts-main-container">
+<div class="container-fluid feed-container">
     <div class="row">
-
         <div class="col-12">
 
             <?php 
@@ -27,7 +26,6 @@ Template name: Front Page
 
             if ( $display_four_posts->have_posts() ) : ?>
 
-                <div class="container posts-container">
                     <div class="row">
 
                         <!-- Loop -->
@@ -35,7 +33,7 @@ Template name: Front Page
                     
                             <!-- Content in the loop -->
                             <div class="col-10 col-md-8 col-lg-4 offset-1 offset-md-2 offset-lg-1 post-content">
-                                <a class="categoryid"><?php the_category(); ?></a>
+                                <a><?php the_category(); ?></a>
                                 <div class="thumbnail">
                                     <?php 
                                     // the_post_thumbnail(); 
@@ -49,14 +47,12 @@ Template name: Front Page
                         <?php endwhile;  ?>
                     
                     </div> <!-- .row  -->
-                </div> <!-- .post-container -->
-
+                
             <!-- Ends loop -->
             <?php endif; ?>
 
-        </div> <!-- /.blog-main -->
-
+        </div> <!-- /.col-12 -->
     </div> <!-- /.row -->
-</div>
+</div> <!-- /.container posts-main-container -->
 
 <?php get_footer(); ?>

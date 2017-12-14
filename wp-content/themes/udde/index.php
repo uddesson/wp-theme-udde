@@ -1,23 +1,46 @@
+<!-- INDEX -->
+
 <?php get_header(); ?>
 
-<div class="front-page-header">
-
+<div class="container-fluid nav-container">
     <?php require 'navbar.php'; ?>
-    
-    <?php require 'front-page-header-content.php'; ?>
+</div>
 
-</div> <!-- .front-page-header -->
+<?php echo 'VARNING DET HÄR ÄR INDEX'; ?>
 
-<div class="row">
+<div class="container-fluid feed-container">
+    <div class="row">
+        <div class="col-10 col-lg-7 offset-lg-1">
 
-    <div class="col-lg-10 offset-lg-2 posts-main">
+            <?php if ( have_posts() ) : ?>
 
-    <?php echo 'VARNING DET HÄR ÄR INDEX'; ?>
-    
-    </div> <!-- /.blog-main -->
+                <!-- Loops out all the posts -->
+                <?php while ( have_posts() ) : the_post(); ?>
+                        
+                    <!-- Content in the loop -->
+                    <div class="col post-content">
+                        <a><?php the_category(); ?></a>
+                        <div class="thumbnail">
+                            <?php 
+                            // the_post_thumbnail(); 
+                            ?>
+                        </div>
+                        <?php echo '<h1><a href="'.get_permalink( $id ).'">'.get_the_title( $id ).'</a></h1>'; ?>
+                        <p><?php the_excerpt(); ?></p>
+                        <a id=#readmore>Läs mer</a>                           
+                    </div>
+        
+                <?php endwhile;  ?>
+                        
+        </div>
 
-    <?php get_sidebar(); ?>
+            <!-- Ends loop -->
+            <?php endif; ?>
 
-</div> <!-- /.row -->
+        <div class="col-lg-3 sidebar">
+            <?php get_sidebar(); ?>
+        </div>
+    </div>
+</div>
 
-<?php get_footer(); ?>
+<?php get_footer(); ?>    

@@ -36,8 +36,8 @@ Template name: Front Page
                         <div class="col-5 post-content">
                             <?= the_category(); ?>
                             <?= the_post_thumbnail(); ?>
-                            <p> <?= the_content(); ?> </p>    
-                            <h1> <?= the_title(); ?> </h1>                                                             
+                            <h1> <?= the_title(); ?> </h1>    
+                            <p> <?= the_content(); ?> </p>                           
                         </div>
             
                     <?php endwhile;  ?>

@@ -5,6 +5,12 @@ Description: My first theme, based on HTML-Bootstrap Blog theme by Bootstrap (@m
 Tags: bootstrap
 */
 
+// Mixins, profile colors
+@import "_mixin.scss";
+
+// Importing animations
+@import "_animations.scss";
+
 //Mobile
 @import "_mobile.scss";
 

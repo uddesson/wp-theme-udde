@@ -8,7 +8,7 @@
     <div class="collapse navbar-collapse justify-content-end" id="hamburgerMenu">
         <div class="navbar-nav">
             <ul>
-                <li><a class="nav-item nav-link"><?php wp_list_pages( '&title_li=' ); ?></a></li>
+                <li><a class="nav-item nav-link"><?php wp_list_pages(); ?></a></li>
             </ul>
         </div>
     </div>

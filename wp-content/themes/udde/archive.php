@@ -4,7 +4,7 @@
     <?php require 'parts/navbar.php'; ?>
 </div>
 
-<?php echo 'DET HÄR ÄR PORTFOLIO/HOME'; ?>
+<?php echo 'DET HÄR ÄR ARKIV'; ?>
 
 <div class="container-fluid feed-container">
     <div class="row">

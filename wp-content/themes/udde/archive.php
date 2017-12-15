@@ -17,4 +17,9 @@
     </div>
 </div>
 
+<div class="pagination-links">
+    <?php next_posts_link(); ?>
+    <?php previous_posts_link(); ?>
+</div>
+
 <?php get_footer(); ?>    

@@ -98,16 +98,58 @@ h1, h2, h3, h4, h5, h6{
 
 }
 
+.author-container{
+  margin: auto;
+  text-align: center;
+  padding: 80px 0px 80px 0px;
+  background-color: #fff;
+
+  p, h2{
+    text-align: left;
+    color: $light_teal;
+  }
+
+  img.avatar.avatar-190.photo{
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  }
+
+  .small-authour-bio{
+
+    ul{
+      text-align: left;
+      padding: 0px;
+
+        .fa{
+        font-size: 2em; 
+        margin-right: 10px; 
+        color: $lighter_teal;
+        }
+
+        .fa:hover{
+          color: $dark_teal;
+          }
+
+    }
+  }
+}
+
 /* Post preview content for feed */
 .feed-container {
   width: 100vw;
-  padding-top: 140px;
-  padding-bottom: 100px;
+  padding: 90px 0 60px 0;
   margin: 0px;
 
   .post-categories{
     margin-bottom: 10px;
     padding: 0px;
+  }
+
+  h1#latest-headline{
+    color: $light_teal;
+    margin-left: 30px;
+    margin-bottom: 50px;
   }
   
 

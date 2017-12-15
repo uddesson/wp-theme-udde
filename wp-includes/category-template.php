@@ -516,7 +516,7 @@ function wp_list_categories( $args = '' ) {
 		'show_option_none'    => __( 'No categories' ),
 		'style'               => 'list',
 		'taxonomy'            => 'category',
-		'title_li'            => __( 'Categories' ),
+		'title_li'            => __( '' ),
 		'use_desc_for_title'  => 1,
 	);
 

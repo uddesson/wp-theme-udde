@@ -7,39 +7,10 @@
 
 <div class="container-fluid feed-container">
     <div class="row">
-        <div class="col-10 col-lg-7 offset-lg-1">
+        <div class="col-10 col-lg-7 offset-lg-1"> <!-- This tag is closed whithin the loop in parts -->
 
-            <?php if ( have_posts() ) : ?>
-
-                <!-- Loops out all the posts -->
-                <?php while ( have_posts() ) : the_post(); ?>
-                        
-                    <!-- Content in the loop -->
-                    <div class="col post-content">
-                        <a><?php the_category(); ?></a>
-                        <div class="thumbnail">
-                            <?php 
-                            // the_post_thumbnail(); 
-                            ?>
-                        </div>
-                        <h1><?php the_title(); ?></h1> 
-                        <p><?php the_excerpt(); ?></p>   
-                        <p><?php the_content(); ?></p>
-                        <a id=#readmore>Läs mer</a>                           
-                    </div>
+            <?php require 'parts/single-post-content.php'; ?>
         
-                <?php endwhile;  ?>
-                        
-        </div>
-
-            <!-- Ends loop -->
-            <?php endif; ?>
-
-        <div class="col-lg-3 sidebar">
-            <?php get_sidebar(); ?>
-        </div>
     </div>
 </div>
-
-
 <?php get_footer(); ?>

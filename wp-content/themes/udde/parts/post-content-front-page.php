@@ -31,7 +31,7 @@ if ( $display_four_posts->have_posts() ) : ?>
                         </a>
                     </div> <!--./thumbnail-->
                 </div> <!--./thumbnail-container-->
-                <?php echo '<h1><a href="'.get_permalink( $id ).'">'.get_the_title( $id ).'</a></h1>'; ?>
+                <?php echo '<h2><a href="'.get_permalink( $id ).'">'.get_the_title( $id ).'</a></h2>'; ?>
                 <p><a href="<?php the_permalink(); ?>"><?php the_excerpt(); ?></p></a>
                 <a href="<?php the_permalink(); ?>" id="readmore">Läs mer</a>                           
             </div> 

@@ -4,5 +4,5 @@
         {Halloj}
     </h1>
     <p class="about-description"><?php echo get_bloginfo( 'description' ); ?></p>
-    <i class="fa fa-arrow-down" aria-hidden="true"></i>
+    <div class="arrow"><i class="fa fa-angle-down" aria-hidden="true"></i></div>
 </div>

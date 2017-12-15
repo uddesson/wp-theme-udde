@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6{
         
     a:hover,
     a:focus {
-      color: rgba(255, 255, 255, 0.822);
+      color: $lighter_teal;
       text-decoration: none;
     }  
   }
@@ -154,7 +154,7 @@ h1, h2, h3, h4, h5, h6{
   
     a#readmore{
       color: $light_teal;
-      padding: 10px;
+      padding: 8px 20px 8px 20px;
       border-radius: 15px;
       border: 1.5px solid $light_teal;
     }

@@ -1,6 +1,6 @@
 </div><!-- /.container -->
 
-<footer class="blog-footer">
+<footer class="footer">
   <p>
     <a href="#">Åk upp igen</a>
   </p>

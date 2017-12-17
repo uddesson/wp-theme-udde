@@ -4,8 +4,6 @@
     <?php require 'parts/navbar.php'; ?>
 </div>
 
-<?php echo 'DET HÄR ÄR PORTFOLIO/HOME'; ?>
-
 <div class="col-12 col-lg-10 offset-lg-1 filterby-container">
     <h1>filter_by();</h1>
     <?php wp_list_categories(); ?>

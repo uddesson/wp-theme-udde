@@ -27,15 +27,12 @@
     </div>
 </div>
 
-<div class="container-fluid feed-container">
-    <div class="row">
-        <div class="col-12">
-            <h1 id="latest-headline">Mina senaste projekt:</h1>
+<div class="container-fluid feed-container">    
+    <div class="row">    
 
             <?php require 'parts/post-content-front-page.php' ?>
 
         </div> <!-- /.col-12 -->
     </div> <!-- /.row -->
-</div> <!-- /.container posts-main-container -->
 
 <?php get_footer(); ?>

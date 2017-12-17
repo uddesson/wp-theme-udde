@@ -16,7 +16,9 @@ if ( $display_four_posts->have_posts() ) : ?>
     
             <!-- Content in the loop -->
             <div class="col-10 col-md-8 col-lg-5 offset-1 offset-md-0 post-content">
-                <a><?php the_category(); ?></a>
+                <div class=post-categories>
+                    <a><?php the_category('<a>/</a>'); ?></a>
+                </div>
                 <div class="thumbnail-container">
                     <div class="thumbnail">
                         <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">

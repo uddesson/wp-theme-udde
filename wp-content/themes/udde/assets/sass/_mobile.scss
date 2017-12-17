@@ -158,30 +158,37 @@ a:hover{
   .post-content{
     margin-bottom: 60px;
   }
-
-  .post-categories{
-    font-family: 'Roboto Mono', monospace;
-    text-transform: lowercase;
-    margin-bottom: 10px;
-    padding: 0px;
-  }
   
     li{
       display: inline;
     }
 
-    a{
-      color: $light_teal;
-    }
+    .post-categories{
+      margin-bottom: 10px;
+        
+      a{
+        font-family: 'Roboto Mono', monospace;
+        color: $lighter_teal;
+        text-transform: lowercase;
+        letter-spacing: 3px;
+        padding: 0px;
+      }
 
-    a:hover {
-      color: $dark_teal;
-      text-decoration: none;
-      cursor: pointer;
+      a:hover {
+        color: $dark_teal;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      // Styles the separator
+      a:not([href]):not([tabindex]) {
+        color: $lighter_teal;
+        letter-spacing: 3px;
+      }
     }
 
     h2>a{
-      font-size: 0.7em;
+      font-size: 0.9em;
       color: $light_teal;
     }
 
@@ -226,6 +233,7 @@ a:hover{
 }
 
 .filterby-container{
+  max-width: 80%;
   margin-top: 70px;
   padding: 0px;
 
@@ -233,14 +241,16 @@ h1{
   font-family: 'Roboto Mono', monospace;
   font-size: 2em;
   letter-spacing: 0.1em;
-  margin-bottom: 30px; 
+  margin-bottom: 26px; 
   color: $dark_grey;
 }
 
 a{ 
+  font-family: 'Roboto Mono', monospace;
+  text-transform: lowercase;
   background-color: $lighter_teal;
   color: #fff;
-  padding: 9px;
+  padding: 8px 12px 8px 12px;
   border-radius: 15px;
   margin-right: 5px; 
 }

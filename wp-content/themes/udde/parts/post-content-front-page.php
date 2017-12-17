@@ -14,7 +14,7 @@ if ( $display_four_posts->have_posts() ) : ?>
         <?php  while ( $display_four_posts->have_posts() ) : $display_four_posts->the_post(); ?>
     
             <!-- Content in the loop -->
-            <div class="col-10 col-md-8 col-lg-5 post-content">
+            <div class="col-10 col-md-8 col-lg-5 offset-1 offset-md-0 post-content">
                 <a><?php the_category(); ?></a>
                 <div class="thumbnail-container">
                     <div class="thumbnail">

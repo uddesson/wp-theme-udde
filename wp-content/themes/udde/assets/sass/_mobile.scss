@@ -3,6 +3,9 @@ body {
   background-color: $light_grey;
 }
 
+
+/* General styling: */
+
 li{
   list-style: none;
   display: inline;
@@ -12,10 +15,21 @@ h1, h2, h3, h4, h5, h6{
   font-family: 'Quicksand', sans-serif;
 }
 
+p, a{
+  color: $light_teal;
+}
+
+a:hover{
+  color: $dark_teal;
+  text-decoration: none;
+}
+
+
+
 /* Navbar */
 
 .nav-container{
-  background-color: #2d2d2d;
+  background-color: $dark_grey;
 }
 
 .navbar {

@@ -15,9 +15,10 @@
     </div>
 </div>
 
-<div class="pagination-links">
-    <?php next_posts_link(); ?>
-    <?php previous_posts_link(); ?>
+<div class="col-12 col-lg-10 offset-lg-1 pagination-links">
+    <?php previous_posts_link(); ?> 
+    | <!-- Custom "separator" -->
+    <?php next_posts_link(); ?>    
 </div>
 
 <?php get_footer(); ?>    

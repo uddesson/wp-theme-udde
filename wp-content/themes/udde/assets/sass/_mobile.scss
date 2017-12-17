@@ -276,8 +276,14 @@ a:hover, a:focus{
 
 /* Pagination */
 .pagination-links{
+  color: $light_teal;
+  padding: 0px;
   margin-bottom: 60px;
   text-align: left;
+
+  .pagination-links:hover {
+    text-decoration: none;
+  }
 }
 
 

@@ -113,14 +113,13 @@ a:hover{
 }
 
 .author-container{
-  margin: auto;
+  margin-bottom: 70px;
   text-align: center;
   padding: 80px 0px 80px 0px;
   background-color: #fff;
 
   p, h2{
     text-align: left;
-    color: $light_teal;
   }
 
   img.avatar.avatar-190.photo{
@@ -138,7 +137,7 @@ a:hover{
         .fa{
         font-size: 2em; 
         margin-right: 10px; 
-        color: $lighter_teal;
+        color: $light_teal;
         }
 
         .fa:hover{
@@ -152,8 +151,9 @@ a:hover{
 /* Post preview content for feed */
 .feed-container {
   width: 100vw;
-  padding: 90px 0 60px 0;
+  padding: 50px 0 60px 0;
   margin: 0px;
+  line-height: 190%;
   
   .post-content{
     margin-bottom: 60px;
@@ -216,7 +216,7 @@ a:hover{
 
 .thumbnail-container{
   margin: 0px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   padding: 0px;
   height: 260px;
 

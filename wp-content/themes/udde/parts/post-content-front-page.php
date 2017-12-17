@@ -1,11 +1,12 @@
 <!-- Content of blog posts -->
-<?php 
-/** Creates a new query to display only four posts when this template page is used.
-Also uses 'no_found_rows=true' to avoid the loop from counting the total matching rows in db,
+
+<!-- Creates a new query to display only four posts when front page-template page is used.  -->
+<?php $display_four_posts = new WP_Query( 'no_found_rows=true&posts_per_page=4' ); 
+
+/*Also uses 'no_found_rows=true' to avoid the loop from counting the total matching rows in db,
 which could slow down the site when db has more content.
 On the topic I found this helpful: https://flavio.tordini.org/speed-up-wordpress-get_posts-and-query_posts-functions
-**/
-$display_four_posts = new WP_Query( 'no_found_rows=true&posts_per_page=4' ); 
+*/
 
 if ( $display_four_posts->have_posts() ) : ?>
     <div class="row justify-content-md-center">

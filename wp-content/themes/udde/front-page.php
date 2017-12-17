@@ -1,3 +1,7 @@
+<!-- 
+Template name: Front-page
+ -->
+
 <?php get_header(); ?>
 
 <div class="front-page-header">

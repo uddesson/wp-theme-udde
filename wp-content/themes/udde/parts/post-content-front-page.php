@@ -24,11 +24,10 @@ if ( $display_four_posts->have_posts() ) : ?>
                         <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
                         <?php 
                         if ( has_post_thumbnail() ): 
-
-                            //Creates array that points to the source of the posts thumbnail
-                            $image_src = wp_get_attachment_image_src( get_post_thumbnail_id(),’thumbnail’ );
-                            //Sets class to img src which now can be styled directly via class
-                            echo '<img class="thumbnail-image" src="' . $image_src[0] . '">';
+                            
+                            /* Fetches the post thumbnail in wordpress-default-size called "medium large" 
+                            and assigns it to my class thumbnail-image */
+                            the_post_thumbnail('medium_large', array('class' => 'thumbnail-image')); 
                                 
                         endif; ?>
                         </a>

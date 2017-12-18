@@ -22,7 +22,7 @@ Template name: Archive view
 
 <div class="col-12 col-lg-10 offset-lg-1 pagination-links">
     <?php previous_posts_link(); ?> 
-    | <!-- Custom "separator" -->
+    
     <?php next_posts_link(); ?>    
 </div>
 

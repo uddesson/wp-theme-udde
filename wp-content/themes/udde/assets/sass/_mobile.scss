@@ -222,7 +222,7 @@ a:hover{
 /* Thumbnails */
 
 .thumbnail-container{
-  margin: 0px;
+  margin: 0px auto;
   margin-bottom: 20px;
   padding: 0px;
   height: 260px;
@@ -238,6 +238,31 @@ a:hover{
     opacity: 1;
   }
 }
+
+.single-post-content{
+  margin-bottom: 100px;
+
+  /* Styles the images within the post itself */
+  img{
+    object-fit: cover;
+    width: 70vw;
+    height: 100%;
+  }
+
+  .single-post-thumbnail-container{
+    margin: 0px;
+    margin-bottom: 20px;
+    padding: 0px;
+    height: 500px;
+  }
+
+  img.single-post-thumbnail-image{
+    object-fit: cover;
+    width: 70vw;
+    height: 500px;
+  }
+}
+
 
 .filterby-container{
   max-width: 80%;

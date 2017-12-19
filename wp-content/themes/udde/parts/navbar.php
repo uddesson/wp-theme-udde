@@ -8,8 +8,11 @@
 
   <!-- Navbar links, connecting to collapsed-toggle with id  -->
   <div class="collapse navbar-collapse justify-content-end" id="hamburgerMenu">
-    <ul class="navbar-nav justify-content-end">
-        <a><?php wp_list_pages(); ?></a>
+    <ul class="navbar-nav">
+        <?php 
+          /* Fetches custom $navbar from functions.php */
+          echo '<a>' . $navbar . '</a>';
+        ?>
     </ul>
   </div> 
 </nav>

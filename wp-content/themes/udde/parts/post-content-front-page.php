@@ -16,7 +16,7 @@ if ( $display_four_posts->have_posts() ) : ?>
     
             <!-- Content in the loop -->
             <div class="col-10 col-md-8 col-lg-5 offset-1 offset-md-0 post-content">
-                <div class=post-categories>
+                <div class="post-categories">
                     <a><?php the_category('<a>/</a>'); ?></a>
                 </div>
                 <div class="thumbnail-container">

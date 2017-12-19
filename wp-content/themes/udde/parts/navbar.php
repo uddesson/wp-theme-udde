@@ -3,8 +3,8 @@
 
   <!-- Toggler/collapsibe Button -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hamburgerMenu">
-  <span class="navbar-toggler-icon"></span>
-</button>
+    <i class="fa fa-bars" aria-hidden="true"></i>
+  </button>
 
   <!-- Navbar links, connecting to collapsed-toggle with id  -->
   <div class="collapse navbar-collapse justify-content-end" id="hamburgerMenu">

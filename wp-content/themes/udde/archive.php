@@ -4,7 +4,7 @@ Template name: Archive view
 
 <?php get_header(); ?>
 
-<div class="container-fluid nav-container">
+<div class="container-fluid nav-container-invert">
     <?php require 'parts/navbar.php'; ?>
 </div>
 

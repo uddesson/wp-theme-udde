@@ -15,12 +15,16 @@ li{
 }
 
 h1, h2, h3, h4, h5, h6{
-  color: $light_teal;
+  color: $dark_grey;
   font-family: 'Quicksand', sans-serif;
 }
 
-p, a{
+a{
   color: $light_teal;
+}
+
+p{
+  color: $dark_grey;
 }
 
 a:hover{
@@ -32,26 +36,22 @@ a:hover{
 
 /* Navbar */
 
-.nav-container{
-  background-color: $dark_grey;
-  padding: 0 0 15px;
-}
 
 .navbar {
-  padding-top: 20px;
+  padding: 30px;
 
   li {
     text-align: right;
     padding: 10px;
-    font-weight: 500;	
+    color: #fff;
 
     a {
       font-family: "Roboto", Helvetica, Arial, sans-serif;
       text-transform: uppercase;
-      font-size: 0.7em;
+      font-size: 0.8em;
       letter-spacing: 0.6em;
       position: relative;
-      font-weight: 500;
+      font-weight: 400;
       color: #fff;
     }
         
@@ -63,10 +63,28 @@ a:hover{
   }
 
   .navbar-toggler{
-    margin: 20px 0 5px 0;
     border: 0px;
   } 
+
+  .fa{
+    margin: 0px;
+    font-size: 1.5em;
+  }
   
+}
+
+
+.nav-container-invert{
+  li {
+    color: $dark_grey;
+
+    a {
+      color: $dark_grey;
+    }
+  }
+  .fa{
+    color: $dark_grey;
+  }
 }
 
 
@@ -110,23 +128,26 @@ a:hover{
     color: #fff;
   
   }
-  
-  .fa{
-    font-size: 1.5em;
-    margin-top: 80px; 
-    color: #fff;
-  }
 
+  .arrow{
+  margin-top: 80px;
+
+    .fa{
+      font-size: 1.5em;
+      color: #fff;
+    }
+  }  
 }
 
 .author-container{
   margin-bottom: 40px;
   text-align: center;
-  padding: 80px 0px 80px 0px;
+  padding: 60px 0px 60px 0px;
   background-color: #fff;
 
   p, h2{
     text-align: left;
+    color: $light_teal;
   }
 
   img.avatar.avatar-190.photo{
@@ -139,7 +160,6 @@ a:hover{
 
     ul{
       text-align: left;
-      display: inline;
       padding: 0px;
 
         .fa{
@@ -172,6 +192,7 @@ a:hover{
 
     .post-categories{
       margin-bottom: 10px;
+      padding: 0px;
         
       a{
         font-family: 'Roboto Mono', monospace;
@@ -222,7 +243,7 @@ a:hover{
 /* Thumbnails */
 
 .thumbnail-container{
-  margin: 0px auto;
+  margin: 0px;
   margin-bottom: 20px;
   padding: 0px;
   height: 260px;
@@ -245,8 +266,8 @@ a:hover{
   /* Styles the images within the post itself */
   img{
     object-fit: cover;
-    width: 70vw;
-    height: 100%;
+    width: 100%;
+    height: auto;
   }
 
   .single-post-thumbnail-container{
@@ -256,9 +277,13 @@ a:hover{
     height: 500px;
   }
 
+  .single-post-thumbnail{
+    padding: 0px;
+  }
+
   img.single-post-thumbnail-image{
     object-fit: cover;
-    width: 70vw;
+    width: 100%;
     height: 500px;
   }
 }
@@ -269,33 +294,36 @@ a:hover{
   margin-top: 70px;
   padding: 0px;
 
-h1{
-  font-family: 'Roboto Mono', monospace;
-  font-size: 2em;
-  letter-spacing: 0.1em;
-  margin-bottom: 26px; 
-  color: $dark_grey;
-}
+  h1{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    margin-bottom: 26px; 
+    color: $dark_grey;
+  }
 
-li{
-  display: inline;
-}
+  li{
+    display: inline;
+    line-height: 270%;
+  }
 
-a{ 
-  font-family: 'Roboto Mono', monospace;
-  text-transform: lowercase;
-  background-color: $lighter_teal;
-  color: #fff;
-  padding: 8px 12px 8px 12px;
-  border-radius: 15px;
-  margin-right: 5px; 
-}
+  a{ 
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+    text-transform: lowercase;
+    background-color: $lighter_teal;
+    color: #fff;
+    padding: 8px 12px 8px 12px;
+    border-radius: 13px;
+    margin-right: 5px; 
+  }
 
-a:hover, a:focus{
-  background-color: $light_teal;
-  text-decoration: none;
-  
-}
+  a:hover, a:focus{
+    background-color: $light_teal;
+    text-decoration: none;
+    
+  }
 
 }
 
@@ -329,7 +357,6 @@ a:hover, a:focus{
 .footer {
   padding: 70px 0;
   text-align: center;
-  background-color: $dark_grey;
 }
 
 .footer p:last-child {

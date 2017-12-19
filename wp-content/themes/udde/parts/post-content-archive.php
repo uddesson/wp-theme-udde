@@ -24,7 +24,7 @@
         <div class="col-10 offset-1 col-md-4 offset-md-0">          
         <?php echo '<h2><a href="'.get_permalink( $id ).'">'.get_the_title( $id ).'</a></h2>'; ?>
         <p><a href="<?php the_permalink(); ?>"><?php the_excerpt(); ?></p></a>
-        <a href="<?php the_permalink(); ?>" id="readmore">Läs mer</a>                           
+        <a href="<?php the_permalink(); ?>" id="readmore">Read more</a>                           
     </div> 
     
 

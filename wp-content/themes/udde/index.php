@@ -1,20 +1,21 @@
 <?php get_header(); ?>
 
-<div class="container-fluid nav-container">
-    <?php require 'parts/navbar.php'; ?>
+<div class="container-fluid nav-container-invert">
+	<?php require 'parts/navbar.php'; ?>
 </div>
 
-<?php echo 'DET HÄR ÄR INDEX'; ?>
+<!-- This row contains both content and sidebar -->
+<div class="row"> 
+	
+	<div class="col-7 offset-1 content">
+		<?php require 'parts/page-content.php'; ?>
+	</div> 
+	
+	<div class="col-3">
+		<!-- Displays the content of the sidebar -->
+		<?php get_sidebar(); ?>
+	</div>
 
-<div class="container-fluid feed-container">
-    <div class="row">
-        <div class="col-10 col-lg-7 offset-lg-1"> <!-- This tag is closed whithin the loop in parts -->
-            <?php require 'parts/post-content-archive.php' ?>
+</div> <!-- /.row -->
 
-        <div class="col-lg-3 sidebar">
-            <?php get_sidebar(); ?>
-        </div>
-    </div>
-</div>
-
-<?php get_footer(); ?>    
+<?php get_footer(); ?>

@@ -260,7 +260,7 @@ a:hover{
   }
 }
 
-.single-post-content{
+.content{
   margin-bottom: 100px;
 
   /* Styles the images within the post itself */
@@ -270,18 +270,18 @@ a:hover{
     height: auto;
   }
 
-  .single-post-thumbnail-container{
+  .content-thumbnail-container{
     margin: 0px;
     margin-bottom: 20px;
     padding: 0px;
     height: 500px;
   }
 
-  .single-post-thumbnail{
+  .content-thumbnail{
     padding: 0px;
   }
 
-  img.single-post-thumbnail-image{
+  img.content-thumbnail-image{
     object-fit: cover;
     width: 100%;
     height: 500px;

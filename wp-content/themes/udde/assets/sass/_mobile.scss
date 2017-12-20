@@ -335,6 +335,32 @@ a:hover{
     padding: 10px;
   }
 
+  .categories-sidebar{
+    line-height: 200%;
+    
+    a{
+      font-family: 'Roboto Mono', monospace;
+      color: $lighter_teal;
+      text-transform: lowercase;
+      letter-spacing: 3px;
+      padding: 0px;
+      
+    }
+
+    a:hover {
+      color: $dark_teal;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+
+  h2{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    color: $dark_grey;
+  }
+
 }
 
 

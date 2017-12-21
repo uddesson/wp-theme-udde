@@ -420,3 +420,16 @@ footer {
 .front-footer {
   display: none;
 }
+
+
+/* ----------------
+404
+---------------- */
+.got-lost-container {
+  text-align: center;
+  min-height: 100vh;
+
+  .lost-message-box {
+    margin-top: 150px;
+  }  
+}

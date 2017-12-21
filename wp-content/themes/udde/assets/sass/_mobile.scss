@@ -329,6 +329,12 @@ Category sorting used in archive/portfolio
     background-color: $light_teal;
     text-decoration: none;
   }
+  
+  .current-cat{
+    a{
+      background-color: $light_teal;
+    }
+  } 
 }
 
 

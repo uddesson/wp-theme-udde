@@ -1,0 +1,66 @@
+/* ----------------
+Front-page header
+---------------- */
+
+.front-page-header {
+    .container-about {
+        margin-top: 250px;
+    }
+}
+
+
+/* ----------------
+Feed-container, 
+contains previews of posts
+---------------- */
+
+.feed-container {
+
+    .post-content-front {
+        margin: 30px 20px 30px 20px;
+      }
+      
+    .preview-post-text-content{
+        margin-left: 20px;
+    }
+      
+}
+
+/* ----------------
+General styling for content displayed in in posts/pages
+---------------- */
+.content {
+
+    .content-thumbnail-container {
+        height: 400px;
+    }
+
+    img.content-thumbnail-image {
+        height: 400px;
+    }
+}
+
+
+/* ----------------
+Author (about) container 
+---------------- */
+
+.author-container {
+    padding: 60px 0 60px 0;
+    text-align: center;
+  
+    p, h2 {
+      text-align: left;
+      color: $light_teal;
+    }
+
+    img.avatar.avatar-190.photo {
+        margin-bottom: 0px;
+    }
+
+    .small-authour-bio {
+        ul{
+            text-align: left;
+        }
+    }
+}

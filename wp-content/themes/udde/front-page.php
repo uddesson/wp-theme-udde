@@ -44,4 +44,6 @@ Template name: Front-page
     </div>
 </div>    
 
-<?php get_footer(); ?>
+<div class="front-footer">
+    <?php get_footer(); ?>
+</div>

@@ -1,7 +1,6 @@
-</div><!-- /.container -->
 
 <footer class="footer">
-<!-- Currently empty -->
+    <a href="#">Back to the top?</a> 
 </footer>
 
 <!-- Bootstrap 4.0 -->

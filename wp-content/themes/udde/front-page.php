@@ -35,9 +35,9 @@ Template name: Front-page
             <div class="small-authour-bio">
                 <p><?php echo get_the_author_meta( 'description', $user_id = 1 ); ?></p>
                 <ul>
-                    <i class="fa fa-github-alt" aria-hidden="true"></i>
-                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <a href="https://github.com/uddesson" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/emmauddesson/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                    <a href="mailto:emma.uddesson@gmail.com?Subject=Hello%20Emma" target="_top"><i class="fa fa-envelope" aria-hidden="true"></i></a>
                 </ul>
             </div>
         </div>

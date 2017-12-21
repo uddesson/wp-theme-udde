@@ -1,17 +1,14 @@
+/* ----------------
+General styling
+------------------ */
+
 body {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   background-color: $light_grey;
 }
 
-.row{
-  margin: 0px;
-}
-
-/* General styling: */
-
-li{
+li {
   list-style: none;
-  
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -19,26 +16,40 @@ h1, h2, h3, h4, h5, h6{
   font-family: 'Quicksand', sans-serif;
 }
 
-a{
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+a {
   color: $light_teal;
 }
 
-p{
+p {
   color: $dark_grey;
 }
 
-a:hover{
+a:hover {
   color: $dark_teal;
   text-decoration: none;
 }
 
 
+/* Prevents rows from floating out of max view width */
+.row{
+  margin: 0px;
+}
 
-/* Navbar */
 
+/* ----------------
+ Navbar 
+ ---------------- */
 
 .navbar {
-  padding: 30px;
+  padding: 20px 30px 20px 30px;
 
   li {
     text-align: right;
@@ -62,11 +73,12 @@ a:hover{
     } 
   }
 
-  .navbar-toggler{
+  .navbar-toggler {
     border: 0px;
   } 
 
-  .fa{
+
+  .fa {
     margin: 0px;
     font-size: 1.5em;
   }
@@ -74,7 +86,10 @@ a:hover{
 }
 
 
-.nav-container-invert{
+.nav-container-invert {
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+
   li {
     color: $dark_grey;
 
@@ -82,13 +97,16 @@ a:hover{
       color: $dark_grey;
     }
   }
-  .fa{
+
+  .fa {
     color: $dark_grey;
   }
 }
 
 
-/* Page header */
+/* ----------------
+Front-page header 
+---------------- */
 
 .front-page-header {
   background-image: url(assets/theme_images/hero-image.jpg);
@@ -102,12 +120,12 @@ a:hover{
   margin: auto;
   text-align: center;
 
-  .container-about{
-    margin-top: 190px;
+  .container-about {
+    margin-top: 100px;
   }
 
   .about-description {
-    width: 400px;
+    width: 80vw;
     margin: auto;
     margin-top: 20px;
     line-height: 200%;
@@ -120,194 +138,179 @@ a:hover{
     color: #fff;
   }
 
-  .about-hello{
+  .about-hello {
     font-family: 'Roboto Mono', monospace;
     text-align: center;
-    font-size: 2.4em;
+    font-size: 1.7em;
     letter-spacing: 0.6em;
     color: #fff;
-  
+    margin-bottom: 20px;
   }
 
-  .arrow{
-  margin-top: 80px;
+  .arrow {
+    margin-top: 40px;
 
-    .fa{
+    .fa {
       font-size: 1.5em;
       color: #fff;
     }
   }  
 }
 
-.author-container{
-  margin-bottom: 40px;
-  text-align: center;
-  padding: 60px 0px 60px 0px;
-  background-color: #fff;
 
-  p, h2{
-    text-align: left;
-    color: $light_teal;
-  }
+/* ----------------
+Feed-container, 
+contains previews of posts
+---------------- */
 
-  img.avatar.avatar-190.photo{
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  }
-
-  .small-authour-bio{
-
-    ul{
-      text-align: left;
-      padding: 0px;
-
-        .fa{
-        font-size: 2em; 
-        margin-right: 10px; 
-        color: $light_teal;
-        }
-
-        .fa:hover{
-          color: $dark_teal;
-          }
-    }
-  }
-}
-
-/* Post preview content for feed */
 .feed-container {
   width: 100vw;
-  padding: 50px 0 0 0;
+  padding: 30px 0 0 0;
   margin: 0px;
   line-height: 190%;
   
-  .post-content{
-    margin-bottom: 60px;
+  .post-content-front {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .post-content {
+    padding: 0px; 
   }
   
-    li{
-      display: inline;
-    }
+  li {
+    display: inline;
+  }
 
-    .post-categories{
-      margin-bottom: 10px;
+  .preview-post-text-content {
+    padding: 0px;
+    margin-bottom: 40px;
+  }
+
+  .post-categories {
+    margin-bottom: 10px;
+    padding: 0px;
+    overflow-wrap: break-word;
+      
+    a {
+      font-family: 'Roboto Mono', monospace;
+      color: $lighter_teal;
+      text-transform: lowercase;
+      letter-spacing: 3px;
       padding: 0px;
-        
-      a{
-        font-family: 'Roboto Mono', monospace;
-        color: $lighter_teal;
-        text-transform: lowercase;
-        letter-spacing: 3px;
-        padding: 0px;
-      }
-
-      a:hover {
-        color: $dark_teal;
-        text-decoration: none;
-        cursor: pointer;
-      }
-
-      // Styles the separator
-      a:not([href]):not([tabindex]) {
-        color: $lighter_teal;
-        letter-spacing: 3px;
-      }
     }
 
-    h2>a{
-      font-size: 0.9em;
-      color: $light_teal;
-    }
-
-    h2>a:hover{
+    a:hover {
       color: $dark_teal;
       text-decoration: none;
       cursor: pointer;
     }
-  
-    a#readmore{
-      color: $light_teal;
-      padding: 8px 20px 8px 20px;
-      border-radius: 15px;
-      border: 1.5px solid $light_teal;
-    }
+  }
 
-    a#readmore:hover{
-      color: $dark_teal;
-      border: 1.5px solid $dark_teal;
-      cursor: pointer;
-    } 
+  h2>a {
+    font-size: 0.9em;
+    color: $light_teal;
+  }
+
+  h2>a:hover {
+    color: $dark_teal;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  a#readmore {
+    color: $light_teal;
+    padding: 8px 20px 8px 20px;
+    border-radius: 15px;
+    border: 1.5px solid $light_teal;
+  }
+
+  a#readmore:hover {
+    color: $dark_teal;
+    border: 1.5px solid $dark_teal;
+    cursor: pointer;
+  } 
 }
 
-/* Thumbnails */
 
-.thumbnail-container{
+/* ----------------
+Thumbnails for post-previews
+---------------- */
+
+.thumbnail-container {
   margin: 0px;
   margin-bottom: 20px;
   padding: 0px;
   height: 260px;
 
-  img.thumbnail-image{
+  img.thumbnail-image {
     object-fit: cover;
     opacity: 0.8;
     width: 100%;
     height: 260px;
   }
 
-  img.thumbnail-image:hover{
+  img.thumbnail-image:hover {
     opacity: 1;
   }
 }
 
-.content{
+
+/* ----------------
+General styling for content displayed in in posts/pages
+---------------- */
+
+.content {
   margin-bottom: 100px;
 
   /* Styles the images within the post itself */
-  img{
+  img {
     object-fit: cover;
     width: 100%;
     height: auto;
   }
 
-  .content-thumbnail-container{
+  .content-thumbnail-container {
     margin: 0px;
     margin-bottom: 20px;
     padding: 0px;
-    height: 500px;
+    height: 200px;
   }
 
-  .content-thumbnail{
+  .content-thumbnail {
     padding: 0px;
   }
 
-  img.content-thumbnail-image{
+  img.content-thumbnail-image {
     object-fit: cover;
     width: 100%;
-    height: 500px;
+    height: 200px;
   }
 }
 
 
-.filterby-container{
+/* ----------------
+Category sorting used in archive/portfolio
+---------------- */
+
+.filterby-container {
   max-width: 80%;
-  margin-top: 70px;
   padding: 0px;
 
-  h1{
+  h1 {
     font-family: 'Roboto Mono', monospace;
-    font-size: 1.5em;
+    font-size: 1.1em;
     letter-spacing: 0.1em;
     margin-bottom: 26px; 
     color: $dark_grey;
   }
 
-  li{
+  li {
     display: inline;
     line-height: 270%;
   }
 
-  a{ 
+  a { 
     font-family: 'Roboto Mono', monospace;
     font-size: 0.8em;
     letter-spacing: 0.1em;
@@ -319,53 +322,28 @@ a:hover{
     margin-right: 5px; 
   }
 
-  a:hover, a:focus{
+  a:hover, a:focus {
     background-color: $light_teal;
     text-decoration: none;
     
   }
-
-}
-
-.sidebar{
-  background-color: #fff;
-  padding: 10px;
-
-  .sidebar-module{
-    padding: 10px;
-  }
-
-  .categories-sidebar{
-    line-height: 200%;
-    
-    a{
-      font-family: 'Roboto Mono', monospace;
-      color: $lighter_teal;
-      text-transform: lowercase;
-      letter-spacing: 3px;
-      padding: 0px;
-      
-    }
-
-    a:hover {
-      color: $dark_teal;
-      text-decoration: none;
-      cursor: pointer;
-    }
-  }
-
-  h2{
-    font-family: 'Roboto Mono', monospace;
-    font-size: 1.5em;
-    letter-spacing: 0.1em;
-    color: $dark_grey;
-  }
-
 }
 
 
-/* Pagination */
-.pagination-links{
+/* ----------------
+Sidebar
+---------------- */
+
+.sidebar {
+  display: none;
+}
+
+
+/* ----------------
+Pagination
+---------------- */
+
+.pagination-links {
   color: $light_teal;
   padding: 0px;
   margin-bottom: 60px;
@@ -378,14 +356,53 @@ a:hover{
 }
 
 
-/* Footer */
+/* ----------------
+Author (about) container 
+---------------- */
 
-.footer {
-  padding: 70px 0;
+.author-container {
+  margin: 40px 0 0 0;
   text-align: center;
+  padding: 60px 0px 60px 0px;
+  background-color: #fff;
+
+  p, h2 {
+    text-align: center;
+    color: $light_teal;
+  }
+
+  img.avatar.avatar-190.photo {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  }
+
+  .small-authour-bio {
+    
+    ul {
+
+      text-align: center;
+      padding: 0px;
+
+        .fa {
+        font-size: 2em; 
+        margin-right: 10px; 
+        color: $light_teal;
+        }
+
+        .fa:hover {
+          color: $dark_teal;
+        }
+    }
+  }
 }
 
-.footer p:last-child {
-  margin-bottom: 0;
-}  
 
+/* ----------------
+Footer
+---------------- */
+.footer {
+ padding: 0px;
+ margin: 0px;
+}

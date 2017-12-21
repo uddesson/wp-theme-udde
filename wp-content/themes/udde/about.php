@@ -10,12 +10,12 @@ Template name: Page with sidebar
 
 <!-- This row contains both content and sidebar -->
 <div class="row"> 
-	
-	<div class="col-7 offset-1 content">
+
+	<div class="col-10 col-lg-7 offset-1 content">
 		<?php require 'parts/page-content.php'; ?>
 	</div> 
 	
-	<div class="col-3">
+	<div class="col-3 sidebar">
 		<!-- Displays the content of the sidebar -->
 		<?php get_sidebar(); ?>
 	</div>

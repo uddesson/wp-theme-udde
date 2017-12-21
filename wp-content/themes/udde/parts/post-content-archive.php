@@ -20,8 +20,8 @@
                     </a>
                 </div> <!--./thumbnail-->
             </div> <!--./thumbnail-container-->
-        </div> <!--.col-6>-->
-        <div class="col-10 offset-1 col-md-4 offset-md-0">          
+        </div> <!--.post-content>-->
+        <div class="col-10 offset-1 col-md-5 offset-md-0 col-lg-4 preview-post-text-content">          
         <?php echo '<h2><a href="'.get_permalink( $id ).'">'.get_the_title( $id ).'</a></h2>'; ?>
         <p><a href="<?php the_permalink(); ?>"><?php the_excerpt(); ?></p></a>
         <a href="<?php the_permalink(); ?>" id="readmore">Read more</a>                           
@@ -29,7 +29,7 @@
     
 
     <?php endwhile;  ?>
-            
+           
     
 
 <!-- Ends loop -->

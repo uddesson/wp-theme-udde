@@ -1,9 +1,7 @@
 </div><!-- /.container -->
 
 <footer class="footer">
-  <p>
-    <a href="#">Åk upp igen</a>
-  </p>
+<!-- Currently empty -->
 </footer>
 
 <!-- Bootstrap 4.0 -->

@@ -7,13 +7,13 @@ Got started by following this guide by Tania Rascia https://www.taniarascia.com/
 Tags: bootstrap
 */
 
-// Mixins, profile colors
+/* Mixins, profile colors */
 @import "_mixin.scss";
 
-// Importing animations
+/* Importing animations */
 @import "_animations.scss";
 
-//Mobile
+/* Mobile */
 @import "_mobile.scss";
 
 /* Tablet */
@@ -21,10 +21,9 @@ Tags: bootstrap
     @import "_tablet.scss";
 }
 
-//Desktop
+/* Desktop */
 @media screen and (min-width: 992px){
-@import "_desktop.scss";
-
+    @import "_desktop.scss";
 }
 
 

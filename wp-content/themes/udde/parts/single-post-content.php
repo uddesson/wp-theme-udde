@@ -4,7 +4,7 @@
     <?php while ( have_posts() ) : the_post(); ?>
         
         <!-- Content in the loop -->
-        <div class="col-8 offset-2 content">
+        <div class="col-10 offset-1 col-lg-8 offset-lg-2 content">
             <div class="post-categories">
                     <a><?php the_category('<a>/</a>'); ?></a>
             </div>

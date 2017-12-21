@@ -1,0 +1,129 @@
+/* ----------------
+Navbar 
+---------------- */
+.navbar-collapse {
+    margin-bottom: 0px;
+  }
+
+.nav-container-invert {
+    margin-bottom: 70px;
+    padding-bottom: 0px;
+}
+
+
+/* ----------------
+Front-page header 
+---------------- */
+.front-page-header {
+    
+    .container-about {
+        margin-top: 190px;
+      }
+
+      .about-hello {
+        font-size: 2.4em;
+      }
+
+      .about-description {
+        width: 400px;
+      }
+
+      .arrow {
+        margin-top: 80px;
+      }
+}
+
+
+.small-author-bio {
+    ul{
+        text-align: left;
+    }
+}
+
+
+.filterby-container {
+
+    h1{
+        font-size: 1.5em;
+    }
+}
+
+
+/* ----------------
+Feed-container, 
+contains previews of posts
+---------------- */
+
+.feed-container {
+    padding: 50px 0 0 0;
+
+    .post-content {
+        margin-bottom: 40px;
+    }
+      
+    .preview-post-text-content {
+        margin: 10px 0 60px 15px;
+    }
+      
+}
+
+/* ----------------
+General styling for content displayed in in posts/pages
+---------------- */
+.content{
+
+    .content-thumbnail-container{
+      height: 500px;
+    }
+  
+  
+    img.content-thumbnail-image{
+      height: 500px;
+    }
+  }
+
+
+
+/* ----------------
+Sidebar
+---------------- */
+
+.sidebar{
+    display: inline;
+}
+
+.sidebar-container{
+    background-color: #fff;
+    padding: 10px;
+  
+    .sidebar-module{
+      padding: 10px;
+    }
+  
+    .categories-sidebar{
+      line-height: 200%;
+      
+      a{
+        font-family: 'Roboto Mono', monospace;
+        color: $lighter_teal;
+        text-transform: lowercase;
+        letter-spacing: 3px;
+        padding: 0px;
+        
+      }
+  
+      a:hover {
+        color: $dark_teal;
+        text-decoration: none;
+        cursor: pointer;
+      }
+    }
+  
+    h2{
+      font-family: 'Roboto Mono', monospace;
+      font-size: 1.5em;
+      letter-spacing: 0.1em;
+      color: $dark_grey;
+    }
+  
+  }

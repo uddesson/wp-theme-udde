@@ -8,7 +8,7 @@ Template name: Archive view
     <?php require 'parts/navbar.php'; ?>
 </div>
 
-<div class="col-12 col-lg-10 offset-lg-1 filterby-container">
+<div class="col-10 offset-1 filterby-container">
     <h1>filter_portfolio_by();</h1>
     <?php wp_list_categories(); ?>
 </div>
@@ -20,7 +20,7 @@ Template name: Archive view
 </div>
         
 
-<div class="col-12 col-lg-10 offset-lg-1 pagination-links">
+<div class="col-10 offset-1 pagination-links">
     <?php previous_posts_link(); ?> 
     <?php next_posts_link(); ?>    
 </div>

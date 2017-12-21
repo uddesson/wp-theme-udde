@@ -13,6 +13,10 @@ Template name: Front-page
 </div> <!-- .front-page-header -->
 
 
+<!-- Used for anchor link in header-->
+<div id="jump-to-feed"></div>
+
+
 <div class="container-fluid feed-container">    
     <div class="row">    
 

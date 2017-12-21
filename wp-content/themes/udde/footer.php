@@ -1,6 +1,5 @@
-
-<footer class="footer">
-    <a href="#">Back to the top?</a> 
+<footer>
+    <a href="#jump-to-top">Back to the top?</a> 
 </footer>
 
 <!-- Bootstrap 4.0 -->

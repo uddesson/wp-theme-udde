@@ -18,7 +18,7 @@
     <!-- Fetching custom styles for Udde-template -->
     <link href="<?php echo get_bloginfo('template_directory'); ?>/style.css" rel="stylesheet">
 
-    <!-- Used for anchor link -->
+    <!-- Used for anchor link in footer -->
     <div id="jump-to-top"></div>
 
     <?php wp_head();?>

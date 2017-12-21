@@ -10,6 +10,8 @@ Template name: Archive view
 
 <div class="col-10 offset-1 filterby-container">
     <h1>filter_portfolio_by();</h1>
+    
+    <!-- Displays all categories that has posts in them -->
     <?php wp_list_categories(); ?>
 </div>
 

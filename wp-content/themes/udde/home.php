@@ -6,12 +6,14 @@
 
 <div class="col-10 offset-1 filterby-container">
     <h1>filter_portfolio_by();</h1>
+
+    <!-- Displays all categories that has posts in them -->
     <?php wp_list_categories(); ?>
 </div>
 
 <div class="container-fluid feed-container">
     <div class="row">
-            <?php require 'parts/post-content-archive.php' ?>
+        <?php require 'parts/post-content-archive.php' ?>
     </div>
 </div>
 

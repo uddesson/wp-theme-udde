@@ -13,7 +13,7 @@ Template name: Front-page
 </div> <!-- .front-page-header -->
 
 
-<!-- Used for anchor link in header-->
+<!-- Used for anchor link -->
 <div id="jump-to-feed"></div>
 
 

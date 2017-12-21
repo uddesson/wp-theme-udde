@@ -29,7 +29,7 @@
             <p><?php the_excerpt(); ?></p>   
             <p><?php the_content(); ?></p>
 
-        </div> <!-- ./single-post-content -->
+        </div> <!-- ./content -->
 
     <?php endwhile;  ?>
 

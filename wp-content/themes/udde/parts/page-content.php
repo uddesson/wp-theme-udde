@@ -1,5 +1,5 @@
-<!-- To use the function the_content, which echos the page content,
-we must also use this while-loop --> 
+<!-- To use the function the_content, (which echoes the page content)
+.. we use this while-loop --> 
 <?php while ( have_posts() ) : the_post(); ?>
             
     <!-- Checks if page has thumbnail/featured image -->
@@ -14,8 +14,8 @@ we must also use this while-loop -->
                 the_post_thumbnail('full', array('class' => 'content-thumbnail-image')); 
                 ?>
 
-            </div> <!--./page-thumbnail-->
-        </div> <!--./page-thumbnail-container -->   
+            </div> <!--./content-thumbnail-->
+        </div> <!--./content-thumbnail-container -->   
 
     <?php endif; ?>
 

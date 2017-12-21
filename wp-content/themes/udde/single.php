@@ -6,6 +6,7 @@
 
 <div class="container-fluid feed-container">
     <div class="row">
+        <!-- Fetches content of a single post -->
         <?php require 'parts/single-post-content.php'; ?>
     </div>
 </div>

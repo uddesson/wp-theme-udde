@@ -6,7 +6,6 @@ Navbar
   }
 
 .nav-container-invert {
-    margin-bottom: 70px;
     padding-bottom: 0px;
 }
 
@@ -62,10 +61,11 @@ contains previews of posts
     }
       
     .preview-post-text-content {
-        margin: 10px 0 60px 15px;
+        margin: 10px 0 60px 30px;
     }
       
 }
+
 
 /* ----------------
 General styling for content displayed in in posts/pages
@@ -134,6 +134,6 @@ Sidebar
 /* ----------------
 Footer
 ---------------- */
- .footer {
+footer {
    display: none;
  } 

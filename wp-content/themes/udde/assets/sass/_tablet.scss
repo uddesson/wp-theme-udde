@@ -63,7 +63,7 @@ Author (about) container
             text-align: left;
         }
     }
-}}
+}
 
 
 /* ----------------
@@ -72,3 +72,14 @@ Footer
 footer {
     display: none;
   } 
+
+
+  /* ----------------
+404
+---------------- */
+.got-lost-container {
+  
+    .lost-message-box {
+      margin-top: 200px;
+    }  
+  }

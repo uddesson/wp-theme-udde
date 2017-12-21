@@ -184,7 +184,7 @@ contains previews of posts
 
   .preview-post-text-content {
     padding: 0px;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
   }
 
   .post-categories {
@@ -328,7 +328,6 @@ Category sorting used in archive/portfolio
   a:hover, a:focus {
     background-color: $light_teal;
     text-decoration: none;
-    
   }
 }
 
@@ -427,7 +426,7 @@ footer {
 ---------------- */
 .got-lost-container {
   text-align: center;
-  min-height: 100vh;
+  min-height: 60vh;
 
   .lost-message-box {
     margin-top: 150px;

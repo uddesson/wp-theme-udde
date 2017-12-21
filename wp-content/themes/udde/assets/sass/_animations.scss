@@ -1,7 +1,14 @@
 
 .arrow{
-    animation: arrow_bounce 1s infinite;
+    -webkit-animation: arrow_bounce 1s infinite;
+            animation: arrow_bounce 1s infinite;
     position: relative;
+}
+
+@-webkit-keyframes arrow_bounce{
+    0%{top: 0px;} 
+    50%{top: 10px;}
+    100%{top: 0px;}
 }
 
 @keyframes arrow_bounce{

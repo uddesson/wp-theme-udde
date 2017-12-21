@@ -71,6 +71,8 @@ contains previews of posts
 General styling for content displayed in in posts/pages
 ---------------- */
 .content{
+  padding-left: 40px;
+  padding-right: 40px;
 
     .content-thumbnail-container{
       height: 500px;
@@ -127,3 +129,11 @@ Sidebar
     }
   
   }
+
+
+/* ----------------
+Footer
+---------------- */
+ .footer {
+   display: none;
+ } 

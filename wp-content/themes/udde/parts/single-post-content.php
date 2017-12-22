@@ -25,8 +25,8 @@
             </div> <!--./content-thumbnail-container-->   
             
             <!-- Fetches and formats title, excerpt and post content from database -->
-            <h1><?php the_title(); ?></h1> 
-            <p><?php the_excerpt(); ?></p>   
+            <p id="date"><?php the_date(); ?></p>   
+            <h1><?php the_title(); ?></h1>   
             <p><?php the_content(); ?></p>
 
         </div> <!-- ./content -->

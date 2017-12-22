@@ -207,6 +207,13 @@ contains previews of posts
     }
   }
 
+  p#date{
+    font-family: 'Roboto Mono', monospace;
+    text-transform: lowercase;
+    letter-spacing: 3px;
+    padding: 0px;
+  }
+
   h2>a {
     font-size: 0.9em;
     color: $light_teal;

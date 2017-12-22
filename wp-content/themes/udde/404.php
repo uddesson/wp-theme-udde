@@ -7,7 +7,7 @@
 <div class="got-lost-container">
     <div class="lost-message-box">
         <h1>404</h1>
-        <p>Woops, there's nothing here. </3</p>
+        <p>Woops, there's nothing here.</p>
     </div>
 </div>
 

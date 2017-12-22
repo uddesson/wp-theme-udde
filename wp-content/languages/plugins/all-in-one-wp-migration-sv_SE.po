@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - All-in-One WP Migration - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-11-21 12:14:26+0000\n"
+"PO-Revision-Date: 2017-12-19 13:50:30+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,10 @@ msgstr ""
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: sv_SE\n"
 "Project-Id-Version: Plugins - All-in-One WP Migration - Stable (latest release)\n"
+
+#: lib/view/export/button-mega.php:1 lib/view/import/button-mega.php:1
+msgid "Mega"
+msgstr "Mega"
 
 #: lib/vendor/servmask/command/class-ai1wm-wp-cli-command.php:213
 msgid "Example: wp ai1wm restore migration-wp-20170913-095743-931.wpress"

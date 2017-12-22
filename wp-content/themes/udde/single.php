@@ -10,4 +10,5 @@
         <?php require 'parts/single-post-content.php'; ?>
     </div>
 </div>
+
 <?php get_footer(); ?>

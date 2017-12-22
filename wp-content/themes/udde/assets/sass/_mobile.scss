@@ -112,7 +112,7 @@ Front-page header
   background-image: url(assets/theme_images/hero-image.jpg);
   background-repeat: no-repeat;
   padding: 0px;
-  margin: 0px;
+  margin-bottom: 50px;
   width: 100vw;
   height: 100vh;
   background-size: cover;
@@ -184,7 +184,7 @@ contains previews of posts
 
   .preview-post-text-content {
     padding: 0px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
   }
 
   .post-categories {
@@ -312,7 +312,6 @@ Category sorting used in archive/portfolio
     font-family: 'Roboto Mono', monospace;
     font-size: 1.1em;
     letter-spacing: 0.1em;
-    margin-bottom: 26px; 
     color: $dark_grey;
   }
 
@@ -440,7 +439,7 @@ footer {
 ---------------- */
 .got-lost-container {
   text-align: center;
-  min-height: 60vh;
+  min-height: 80vh;
 
   .lost-message-box {
     margin-top: 150px;

@@ -37,7 +37,7 @@ class new_general_setting {
     add_action( 'admin_init' , array( &$this , 'register_fields' ) );
   }
 
-  /* We tell WP which settings section we want it on and what to call it */  
+  /* We tell WP in which settings section we want it, and how to call/reference it */  
   function register_fields() {
     register_setting( 'general', 'welcomemessage', 'esc_attr' );
     /* "esc_attr" makes sure the input is HTML and otherwise strips it of invalid or special characters */
@@ -51,7 +51,7 @@ class new_general_setting {
   function fields_html() {
     /* The users input in the text field is set to $value */
     $value = get_option( 'welcomemessage', '' );
-    
+
     echo '<input type="text" id="welcomemessage" name="welcomemessage" class="regular-text ltr" 
     placeholder="Ex. Hello World" value="' . $value . '" />
     <p class="description"> Greet the visitor with one or two words, displayed on the front page. </p>';

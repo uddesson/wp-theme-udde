@@ -18,7 +18,7 @@ $args = array(
     'depth' => '1',
     'echo' => 0
   );
-  $separator = ' / ';
+  $separator = '<a id="navseparator">  / </a>';
   $pattern = '/(<\\/a>).*?(<\\/li>).*?(<li)/is';
   $replace = '</a>' . $separator . '</li><li';
   

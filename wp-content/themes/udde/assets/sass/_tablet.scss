@@ -17,9 +17,14 @@ contains previews of posts
 
 .feed-container {
 
+    .row { 
+        display: flex;
+        align-items: flex-end;
+    }
+  
     .post-content-front {
         margin: 30px 20px 30px 20px;
-      }
+    }
       
     .preview-post-text-content{
         margin-left: 20px;

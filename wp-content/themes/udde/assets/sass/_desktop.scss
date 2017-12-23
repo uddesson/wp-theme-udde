@@ -3,8 +3,12 @@ Navbar
 ---------------- */
 
 .navbar{
-  a#navseparator{
+  a#navseparator {
     display: inline;
+  }
+  
+  li{
+    padding: 10px;
   }
 
   .navbar-collapse {

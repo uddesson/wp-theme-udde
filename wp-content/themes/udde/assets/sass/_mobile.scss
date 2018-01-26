@@ -5,6 +5,11 @@ General styling
 body {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   background-color: $light_grey;
+  margin: 0px;
+}
+
+.container-fluid{
+  padding: 0px;
 }
 
 li {
@@ -91,8 +96,6 @@ a:hover {
 
 
 .nav-container-invert {
-  margin-bottom: 15px;
-  padding-bottom: 10px;
 
   li {
     color: $dark_grey;
@@ -322,7 +325,7 @@ Category sorting used in archive/portfolio
     color: $dark_grey;
   }
 
-  li {
+  li {  
     display: inline;
     line-height: 270%;
   }

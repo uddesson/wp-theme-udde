@@ -27,17 +27,18 @@ $args = array(
 
 
 
-/* Creates a custom setting in "Settings/General" */ 
+/* Creates a custom setting for adding a "Welcome Message"
+/* To be found in WP-Admin Settings/General */ 
 $new_general_setting = new new_general_setting();
 
 class new_general_setting {
     
-  /* We tell WordPress to register new options, with admin-init WP knows it's safe to save the options */
+  /* Tells WP to register a new setting, availible to admin */
   function new_general_setting( ) {
     add_action( 'admin_init' , array( &$this , 'register_fields' ) );
   }
 
-  /* We tell WP in which settings section we want it, and how to call/reference it */  
+  /* Registers the settings field in the wanted section (general), and sets a reference (welcomemessage) */  
   function register_fields() {
     register_setting( 'general', 'welcomemessage', 'esc_attr' );
     /* "esc_attr" makes sure the input is HTML and otherwise strips it of invalid or special characters */

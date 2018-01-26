@@ -30,6 +30,7 @@ a {
 
 p {
   color: $dark_grey;
+  line-height: 170%;
 }
 
 a:hover {
@@ -275,6 +276,7 @@ General styling for content displayed in in posts/pages
 
 .content {
   margin-bottom: 50px;
+  line-height: 170%;
 
   /* Styles the images within the post itself */
   img {

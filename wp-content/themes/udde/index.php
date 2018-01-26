@@ -10,11 +10,6 @@
 		<?php require 'parts/page-content.php'; ?>
 	</div> 
 	
-	<div class="col-3 sidebar">
-		<!-- Displays the content of the sidebar -->
-		<?php get_sidebar(); ?>
-	</div>
-
 </div> <!-- /.row -->
 
 <?php get_footer(); ?>    

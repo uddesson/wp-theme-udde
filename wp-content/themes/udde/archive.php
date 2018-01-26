@@ -12,7 +12,7 @@ Template name: Archive view
     <h1>filter_portfolio_by();</h1>
     
     <!-- Displays all categories that has posts in them -->
-    <?php wp_list_categories(); ?>
+    <?php wp_list_categories('title_li='); ?>
 </div>
 
 <div class="container-fluid feed-container">

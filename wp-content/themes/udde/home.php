@@ -8,7 +8,7 @@
     <h1>filter_portfolio_by();</h1>
 
     <!-- Displays all categories that has posts in them -->
-    <?php wp_list_categories(); ?>
+    <?php wp_list_categories('title_li='); ?>
 </div>
 
 <div class="container-fluid feed-container">
@@ -20,6 +20,6 @@
 <div class="col-10 offset-1 pagination-links">
     <?php previous_posts_link(); ?> 
     <?php next_posts_link(); ?>    
-</div>
+</div> 
 
 <?php get_footer(); ?>    

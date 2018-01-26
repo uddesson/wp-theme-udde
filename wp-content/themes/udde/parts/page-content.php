@@ -24,3 +24,5 @@
 
 <!-- Ends loop -->
 <?php endwhile; ?>
+
+<?php get_footer(); ?>    

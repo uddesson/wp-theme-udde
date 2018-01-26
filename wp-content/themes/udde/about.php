@@ -21,4 +21,4 @@ Template name: Page with sidebar
 
 </div> <!-- /.row -->
 
-<?php get_footer(); ?>
+<?php get_footer(); ?>    

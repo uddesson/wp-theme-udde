@@ -419,18 +419,7 @@ Author (about) container
 Footer
 ---------------- */
 footer {
-  background-color: #fff;
-  padding: 40px;
-  margin-top: 20px;
-  text-align: center;
-
-    a {
-    color: $lighter_teal;
-    font-family: 'Roboto Mono', monospace;
-    letter-spacing: 0.7em;
-    font-size: 0.8em;
-    text-transform: lowercase; 
-  }
+  display: none;
 }
 
 .front-footer {

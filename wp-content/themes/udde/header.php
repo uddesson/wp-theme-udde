@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Portfolio">
     <meta name="author" content="Emma">
+    <link rel="shortcut icon" type="image/png" href="http://uddesson.se/wp-content/uploads/2018/01/favicon-udde-wp-52-1.png"/>
 
     <title>Emmas Portfolio</title>
     

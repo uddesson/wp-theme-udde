@@ -55,7 +55,7 @@ a:hover {
  ---------------- */
 
 .navbar {
-  padding: 30px;
+  padding: 30px 30px 20px 30px;
 
   li {
     text-align: right;
@@ -128,19 +128,19 @@ Front-page header
   text-align: center;
 
   .container-about {
-    margin-top: 100px;
+    margin-top: 60px;
   }
 
   .about-description {
-    width: 80vw;
+    width: 75vw;
     margin: auto;
     margin-top: 20px;
     line-height: 200%;
     text-align: center;
     font-family: "Roboto", Helvetica, Arial, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     text-transform: uppercase;
-    font-size: 0.8em;
+    font-size: 1em;
     letter-spacing: 0.6em;
     color: #fff;
   }
@@ -149,10 +149,10 @@ Front-page header
     font-family: 'Roboto Mono', monospace;
     text-align: center;
     text-transform: lowercase;
-    font-size: 1.7em;
+    font-size: 1.9em;
     letter-spacing: 0.6em;
     color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
   }
 
   .arrow {

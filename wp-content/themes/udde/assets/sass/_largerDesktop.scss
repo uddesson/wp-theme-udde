@@ -1,0 +1,53 @@
+/* ----------------
+Front-page header 
+---------------- */
+.front-page-header {
+  margin-bottom: 80px;
+    
+    .container-about {
+        margin-top: 15%;
+      }
+
+      .about-hello {
+        font-size: 3.4em;
+      }
+
+      .about-description {
+        width: 400px;
+        font-size: 1.1em;
+        font-weight: 100;
+      }
+
+      .arrow {
+        font-size: 1.7em;
+        margin-top: 100px;
+      }
+}
+
+/* ----------------
+Navbar 
+---------------- */
+
+.navbar {
+  padding-top: 70px;
+
+  ul{
+    text-align: right;
+
+    li{
+      a {
+        font-size: 1.1em;
+        letter-spacing: 0.8em;
+      }
+    }
+  }
+}
+
+/* ----------------
+Feed-container, 
+contains previews of posts
+---------------- */
+
+.feed-container {
+  width: 80%;
+}

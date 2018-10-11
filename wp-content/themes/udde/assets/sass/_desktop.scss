@@ -2,21 +2,35 @@
 Navbar 
 ---------------- */
 
-.navbar{
-  a#navseparator {
-    display: inline;
-  }
-  
-  li{
-    padding: 10px;
-  }
+.navbar {
+  padding-top: 70px;
 
-  .navbar-collapse {
-      margin-bottom: 0px;
+  ul{
+    text-align: right;
+
+    li{
+      a {
+        font-size: 0.8em;
+        letter-spacing: 0.6em;
+      }
     }
+  }
+}
 
-  .nav-container-invert {
-      padding: 30px;
+.nav-container-invert{
+  height: auto;
+  background-color: transparent;
+
+  ul{
+    li{
+      a{
+        color: $dark_grey;
+        font-weight: 400;
+      }
+      a#navseparator{
+        color: $dark_grey;
+      }
+    }
   }
 }
 
@@ -27,7 +41,7 @@ Front-page header
   margin-bottom: 80px;
     
     .container-about {
-        margin-top: 190px;
+        margin-top: 15%;
       }
 
       .about-hello {
@@ -68,7 +82,9 @@ contains previews of posts
 ---------------- */
 
 .feed-container {
-    padding: 0 0 0 0;
+    padding: 0;
+    width: 90%;
+    margin: 0 auto;
 
     .post-content {
         margin-bottom: 40px;

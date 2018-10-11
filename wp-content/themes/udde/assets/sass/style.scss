@@ -26,4 +26,8 @@ Tags: bootstrap
     @import "_desktop.scss";
 }
 
+/* Larger Desktop */
+@media screen and (min-width: 1400px){
+  @import "_largerDesktop.scss";
+}
 
